@@ -1,5 +1,6 @@
 int clickerOnePin = 7;
 int clickerTwoPin = 13;
+int clickerThreePin = 4;
 int betweenClicksDelay = 5;
 int highLowDelay = 10;
 
@@ -16,5 +17,9 @@ void loop() {
   digitalWrite(clickerTwoPin, LOW);
   delay(highLowDelay);
   digitalWrite(clickerTwoPin, HIGH);
+  delay(betweenClicksDelay);
+  digitalWrite(clickerThreePin, LOW);
+  delay(highLowDelay);
+  digitalWrite(clickerThreePin, HIGH);
   delay(betweenClicksDelay);
 }
