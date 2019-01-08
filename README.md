@@ -5,6 +5,7 @@ To catch Amazon Flex delivery blocks which required tapping on two parts of the 
 
 ## Demo
 Here’s a gif of two tappers attached to the arduino tapping on two different keyboard keys
+
 ![](auto-screen-tapper.gif)
 
 ## Links
